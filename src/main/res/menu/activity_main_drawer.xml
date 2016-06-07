@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/rotas"
+            android:icon="@mipmap/rotas"
+            android:title="Rotas" />
+        <item
+            android:id="@+id/favoritos"
+            android:icon="@mipmap/favoritos"
+            android:title="Favoritos" />
+        <item
+            android:id="@+id/configuracoes"
+            android:icon="@mipmap/config"
+            android:title="Configurações" />
+
+        <!--<item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />-->
+    </group>
+
+    <item android:title="Alertas">
+        <menu>
+            <item
+                android:id="@+id/iluminacao"
+                android:icon="@mipmap/iluminicao"
+                android:title="Má Iluminação" />
+            <item
+                android:id="@+id/acidente"
+                android:icon="@mipmap/acidente"
+                android:title="Acidente" />
+            <item
+                android:id="@+id/perigo"
+                android:icon="@mipmap/perigo"
+                android:title="Perigo" />
+            <item
+                android:id="@+id/check"
+                android:icon="@mipmap/check"
+                android:title="Check-in" />
+        </menu>
+    </item>
+
+</menu>
